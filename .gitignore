@@ -1,0 +1,23 @@
+# Ignore all build directories
+build/
+
+# Ignore all compiled C++ object files and libraries
+*.o
+*.so
+*.a
+
+# Ignore specific executables
+CherenkovSim/cherenkovSim
+CherenkovSimVis/cherenkovSimVis
+
+# Ignore Geant4/ROOT data output files
+*.root
+*.png
+*.csv
+*.txt
+
+# Ignore Geant4 history file
+G4History.macro
+
+# Ignore user-specific files (common on macOS)
+.DS_Store

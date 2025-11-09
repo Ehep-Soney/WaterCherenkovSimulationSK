@@ -1,0 +1,6 @@
+# run.mac
+# This macro will run 1000 events in "batch" (non-visual) mode.
+# It uses the default gun settings from your PrimaryGeneratorAction.cc
+
+# Run 1000 events. Geant4 will print the PE count for each one.
+/run/beamOn 10

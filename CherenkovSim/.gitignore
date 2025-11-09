@@ -1,0 +1,32 @@
+# Build directory (contains temporary compilation files)
+build/
+
+# Bin directory (often contains the final executable)
+bin/
+
+# Compiled C++ object files and libraries
+*.o
+*.so
+*.a
+*.dylib
+*.dll
+
+# The Geant4 executable for this project
+cherenkovSim
+
+# Data output files from the simulation
+*.root
+
+# Image files generated from data analysis
+*.png
+
+# Alias/macro text files that YOU DID NOT WRITE should be ignored.
+# The following line will ignore ANY .txt file. If your alias files
+# that you want to save are .txt files, DELETE the next line.
+
+
+# Geant4 specific generated files
+G4History.macro
+
+# User-specific files (common on macOS)
+.DS_Store

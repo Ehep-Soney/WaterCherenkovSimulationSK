@@ -1,0 +1,14 @@
+{
+    "files.associations": {
+        "*.icc": "cpp",
+        "justify_cut.C": "cpp",
+        "analyze.C": "cpp",
+        "analysis.C": "cpp",
+        "analyze_point_source.C": "cpp",
+        "analyze_track_length.C": "cpp",
+        "make_sk_plot.C": "cpp",
+        "sk_digi.C": "cpp",
+        "final_comparison.C": "cpp",
+        "make_sk_plot2.C": "cpp"
+    }
+}

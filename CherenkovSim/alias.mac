@@ -1,0 +1,19 @@
+geant4v11 ---> refers to: alias geant4make="source /home/one_autumn_leaf/geant4/install/share/Geant4/geant4make/geant4make.sh"
+rootmake ---> refers to: alias rootmake="source /home/one_autumn_leaf/CERN_ROOT/root/bin/thisroot.sh"
+ 
+export LIBGL_ALWAYS_SOFTWARE=1
+export LD_LIBRARY_PATH=/home/one_autumn_leaf/geant4/install/lib:$LD_LIBRARY_PATH
+export XDG_SESSION_TYPE=X11
+make -j4 or make
+=========================================
+/vis/geometry/set/visibility PMTLogical 0 false
+/vis/geometry/set/visibility PhotocathodeLogical 0 false
+
+
+/vis/geometry/set/visibility InnerDetectorLogical 0 false
+
+========================
+miniconda.. 
+
+conda activate base (to start it)
+conda config --set auto_activate false (to deactivate it, to test open new terminal)
